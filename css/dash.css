@@ -1,0 +1,28 @@
+main {
+  position: relative;
+  background-color: #ffffff;
+  opacity: 0.83;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  height: 281pt;
+  width: 75%;
+  background-color: #ebeff9;
+  opacity: 1;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 13pt;
+}
+
+.box-2 {
+  height: 206pt;
+  width: 75%;
+  background-color: #ebeff9;
+  opacity: 1;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 13pt;
+}

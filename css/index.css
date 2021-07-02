@@ -1,0 +1,69 @@
+.head {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+.cap {
+  color: #ffffff;
+  width: 30px !important;
+  height: 29px;
+}
+
+.school_name {
+  color: #ffffff;
+  font-size: 11px;
+}
+
+.sign {
+  width: 80%;
+  margin: auto;
+  background: #ffffff;
+  opacity: 0.84;
+  border-radius: 15pt;
+  margin-top: 40%;
+}
+
+.sign h1 {
+  font-size: 19px;
+  text-align: center;
+  padding-top: 30px;
+  color: #0d2233;
+  padding-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form div input {
+  border: none;
+  border-bottom: 1px solid #0d2233;
+  margin-bottom: 10px;
+}
+
+.form button {
+  border: none;
+  height: 29pt;
+  width: 126pt;
+  background-color: #45598d;
+  text-align: center;
+  color: #f9f5f2;
+  font-size: medium;
+  margin-top: 30px;
+}
+
+.form p {
+  margin-top: 20px;
+  padding-bottom: 10px;
+  color: #0d2233;
+  opacity: 0.74;
+  font-size: medium;
+  font-style: italic;
+}
