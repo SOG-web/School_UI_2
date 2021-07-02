@@ -11,7 +11,7 @@ body {
   position: relative;
 }
 
-body::before {
+.body::before {
   content: " ";
   display: block;
   position: absolute;
@@ -25,6 +25,10 @@ body::before {
   background-attachment: fixed;
   background-position: 99% 15%;
   background-size: 297% 101%;
+}
+
+.all {
+  position: relative;
 }
 
 ::placeholder {
