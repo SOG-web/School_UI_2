@@ -6,6 +6,10 @@ main {
   flex-direction: column;
 }
 
+.bg-light {
+  background-color: #f8f9fa00 !important;
+}
+
 .box {
   height: 230pt;
   width: 85%;
