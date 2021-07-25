@@ -45,7 +45,7 @@ select:focus {
   outline: none;
 }
 
-/* nav {
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -56,9 +56,9 @@ nav div .con {
   display: block;
   margin-top: 20px;
   margin-right: 20px;
-} */
+}
 
-/* .topnav {
+.topnav {
   overflow: hidden;
 }
 
@@ -102,4 +102,4 @@ nav div .con {
   float: right;
   display: block;
   margin-top: 0px;
-} */
+}
