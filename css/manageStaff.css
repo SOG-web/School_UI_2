@@ -52,22 +52,6 @@ p {
   margin-top: 50px;
 }
 
-button {
-  background-color: #45598d;
-  border: none;
-  width: 150px;
-  height: 35px;
-  margin: auto;
-  margin-bottom: 50px;
-  margin-top: 20px;
-  opacity: 1;
-}
-
-button span {
-  color: #ebeff9;
-  text-align: center;
-}
-
 table {
   /* border: 3px solid blue; */
   margin: auto;
@@ -79,4 +63,20 @@ tr span {
   text-align: center;
   display: flex;
   color: #45598d;
+}
+
+li button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
 }
