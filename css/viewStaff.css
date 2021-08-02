@@ -1,0 +1,40 @@
+main {
+  background-color: #ebeff9;
+  opacity: 0.83;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.box {
+  height: 667px;
+  width: 98%;
+  opacity: 1;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 13pt;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+
+h3 {
+  color: #45598d;
+  font-weight: bold;
+  font-size: 17pt;
+  text-align: center;
+  margin-top: 20px;
+}
+
+form div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
