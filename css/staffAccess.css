@@ -72,7 +72,8 @@ button span {
 input {
   height: auto;
   width: auto;
-  border-radius: 50%;
+  color: white;
+  /* border-radius: 50%; */
 }
 
 label {

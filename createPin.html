@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/css/all.min.css" />
+    <link rel="stylesheet" href="./css/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/viewStaff.css" />
+    <style>
+      button {
+        background-color: inherit;
+        border: 2px solid #5974b7;
+        width: 150px;
+        height: 35px;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        opacity: 1;
+      }
+
+      button span {
+        text-align: center;
+        color: #45598d;
+        font-size: 12pt;
+      }
+
+      .box {
+        height: 437px;
+      }
+
+      .button {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body">
+      <div class="all">
+        <nav>
+          <div class="topnav" id="myTopnav">
+            <a
+              href="javascript:void(0);"
+              class="icon na"
+              onclick="myFunction()"
+            >
+              <i class="fa fa-bars"></i>
+            </a>
+            <a href="#news" class="na">News</a>
+            <a href="#contact" class="na">Contact</a>
+            <a href="#about" class="na">About</a>
+            <!-- <a href="http://"><i class="con fa fab-contact"></i></a> -->
+          </div>
+          <div>
+            <i class="con fa fab-contact"></i>
+          </div>
+        </nav>
+        <main class="body-content">
+          <h3>Create New Fee</h3>
+          <div class="box d-flex">
+            <form action="" class="form-group">
+              <div class="form-group">
+                <label for="admission-no" id="admission-no"
+                  >Admission No :</label
+                >
+                <input type="text" name="admission-no" id="admission-no" />
+              </div>
+              <div class="form-group">
+                <label for="teller-no" id="teller-no">Teller No :</label>
+                <input type="text" name="teller-no" id="teller-no" />
+              </div>
+            </form>
+          </div>
+          <div class="button">
+            <button><span>Create Pin</span></button>
+            <button><span>Manage Pin</span></button>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="/js/all.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
