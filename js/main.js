@@ -6,3 +6,7 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+$(function () {
+  $('[data-toggle="popover"]').popover();
+});

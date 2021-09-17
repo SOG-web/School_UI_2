@@ -72,3 +72,26 @@
   font-size: medium;
   font-style: italic;
 }
+
+input {
+  filter: drop-shadow(0px 0px 0px);
+}
+
+@media only screen and (min-width: 393px) {
+  .s {
+    margin-top: -28%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .head {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 15px;
+  }
+}

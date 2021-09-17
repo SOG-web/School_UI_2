@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>School UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/css/all.min.css" />
+    <link rel="stylesheet" href="./css/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/viewStaff.css" />
+    <style>
+      .box {
+        height: 500px;
+      }
+
+      .button {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-bottom: 30px;
+      }
+
+      .button button {
+        border: 2px solid #5974b7;
+        width: 40%;
+        height: 29pt;
+      }
+
+      button span {
+        text-align: center;
+        color: #45598d;
+        font-size: 12pt;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="body">
+      <div class="all">
+        <nav>
+          <div class="topnav" id="myTopnav">
+            <a
+              href="javascript:void(0);"
+              class="icon na"
+              onclick="myFunction()"
+            >
+              <i class="fa fa-bars"></i>
+            </a>
+            <a href="#news" class="na">News</a>
+            <a href="#contact" class="na">Contact</a>
+            <a href="#about" class="na">About</a>
+            <!-- <a href="http://"><i class="con fa fab-contact"></i></a> -->
+          </div>
+          <div>
+            <i class="con fa fab-contact"></i>
+          </div>
+        </nav>
+        <main class="body-content">
+          <h3>Edit Calender</h3>
+          <div class="box d-flex">
+            <form action="" class="form-group">
+              <div class="form-group">
+                <label for="Session" id="Session">Session :</label>
+                <input
+                  type="text"
+                  name="Session"
+                  id="Session"
+                  placeholder="Edit"
+                  value="xxxxxx"
+                />
+              </div>
+              <div class="form-group">
+                <label for="Start" id="Start">Start :</label>
+                <input
+                  type="date"
+                  name="Start"
+                  id="Start"
+                  placeholder="Edit"
+                  value="22/01/1990"
+                />
+              </div>
+              <div class="form-group">
+                <label for="end" id="end">End :</label>
+                <input type="date" name="end" id="end" placeholder="Edit" />
+              </div>
+              <div class="form-group">
+                <label for="term" id="term">Term :</label>
+                <input type="text" name="term" id="term" placeholder="Edit" />
+              </div>
+              <div class="form-group">
+                <label for="Start" id="Start">Start :</label>
+                <input type="date" name="Start" id="Start" placeholder="Edit" />
+              </div>
+              <div class="form-group">
+                <label for="end" id="end">End :</label>
+                <input type="date" name="end" id="end" placeholder="Edit" />
+              </div>
+            </form>
+          </div>
+          <div class="button">
+            <button class="small"><span>Back</span></button>
+            <button class="small"><span>Update</span></button>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script src="/js/all.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
