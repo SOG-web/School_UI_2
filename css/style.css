@@ -218,6 +218,21 @@ textarea {
   display: none;
 }
 
+@media only screen and (min-width: 830px) {
+  label {
+    font-size: 13pt;
+  }
+
+  ::placeholder {
+    text-align: center;
+    color: #0d2233;
+    font-size: 12pt;
+    font-weight: 300;
+    font-style: italic;
+    padding: 0;
+  }
+}
+
 @media only screen and (min-width: 1020px) {
   .body::before {
     background: url("../img/bg2.png");
