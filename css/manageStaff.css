@@ -97,6 +97,7 @@ li button span {
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 30px;
+  margin-top: 50px;
 }
 
 .button button {
@@ -109,4 +110,14 @@ button span {
   text-align: center;
   color: #45598d;
   font-size: 12pt;
+}
+
+@media only screen and (min-width: 648px) {
+  .button button {
+    width: 200px;
+  }
+
+  h3 {
+    margin-top: 50px;
+  }
 }

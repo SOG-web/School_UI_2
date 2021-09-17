@@ -87,11 +87,32 @@ input {
   .head {
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    margin: auto;
   }
 
-  h3 {
+  .school_name {
     font-size: 20px;
     text-align: center;
+    align-self: center;
+    padding: auto;
+    margin-bottom: 0;
     margin-left: 15px;
+  }
+
+  .form div input {
+    border-bottom: 2px solid #0d2233;
+  }
+
+  input {
+    width: 300px;
+  }
+
+  .sign h1 {
+    font-size: 28px;
+  }
+
+  .sign {
+    width: 40%;
   }
 }
