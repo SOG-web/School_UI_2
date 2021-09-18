@@ -2,7 +2,12 @@
   display: none;
 }
 
-ul {
-  width: 150px;
-  /* border: 2px solid red; */
+@media only screen and (min-width: 830px) {
+  .button .big {
+    display: block;
+  }
+
+  .button .small {
+    display: none;
+  }
 }

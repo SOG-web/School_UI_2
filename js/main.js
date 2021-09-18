@@ -7,10 +7,6 @@ function myFunction() {
   }
 }
 
-$(function () {
-  $('[data-toggle="popover"]').popover();
-});
-
 // var link = document.getElementById("db").getAttribute("href");
 // console.log(document.getElementById("db").href);
 // console.log(link);
