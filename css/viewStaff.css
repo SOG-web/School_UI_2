@@ -55,13 +55,26 @@ main .dd {
 }
 
 @media only screen and (min-width: 1000px) {
+  h3 {
+    font-size: 25px;
+  }
+
+  .box {
+    overflow: hidden;
+    height: 500px;
+  }
+
   .form {
-    height: 301px;
-    width: 85%;
+    height: 394px;
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-content: center;
+    flex-wrap: wrap;
+  }
+
+  form div {
+    width: 468px;
   }
 }

@@ -220,7 +220,7 @@ textarea {
 
 @media only screen and (min-width: 830px) {
   label {
-    font-size: 13pt;
+    font-size: 12pt;
   }
 
   ::placeholder {
@@ -279,5 +279,37 @@ textarea {
     font-size: 11px;
     margin: 0;
     margin-left: 15px;
+  }
+
+  .div-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .div-2 ul {
+    flex-wrap: nowrap;
+    margin: auto;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .nav-link {
+    color: #ffffff;
+  }
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    color: #45598d;
+    background-color: #ffffff;
+    opacity: 0.9;
+    border-color: #dee2e6 #dee2e6 #fff;
+  }
+
+  .dropdown-menu {
+    background-color: #ebeff9;
+    /* opacity: 0.83; */
   }
 }
