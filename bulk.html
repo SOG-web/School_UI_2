@@ -60,21 +60,34 @@
     <div class="body">
       <div class="all">
         <nav>
-          <div class="topnav" id="myTopnav">
-            <a
-              href="javascript:void(0);"
-              class="icon na"
-              onclick="myFunction()"
-            >
-              <i class="fa fa-bars"></i>
-            </a>
-            <a href="#news" class="na">News</a>
-            <a href="#contact" class="na">Contact</a>
-            <a href="#about" class="na">About</a>
-            <!-- <a href="http://"><i class="con fa fab-contact"></i></a> -->
-          </div>
-          <div class="us">
-            <img src="./img/user.png" alt="user" />
+          <div class="over"></div>
+          <div class="fl">
+            <div class="fld">
+              <div class="topnav" id="myTopnav">
+                <a
+                  href="javascript:void(0);"
+                  class="icon na"
+                  onclick="myFunction()"
+                >
+                  <i class="fa fa-bars"></i>
+                </a>
+                <a href="./dashboard.html" class="na">Dashboard</a>
+                <a href="./manageAdmin.html" class="na">Manage Admin</a>
+                <a href="./manageStaff.html" class="na">Manage Staff</a>
+                <a href="./manageStudent.html" class="na">Manage Student</a>
+                <a href="./manageFee.html" class="na">Manage Fee</a>
+                <a href="./manageClass.html" class="na">Manage Classes</a>
+                <a href="./calender.html" class="na">Calender</a>
+                <a href="./promotion.html" class="na">Promotion</a>
+                <a href="./studentPerformance.html" class="na">Performance</a>
+                <a href="./bulk.html" class="na">Message</a>
+                <a href="#" class="na">Extras</a>
+                <!-- <a href="http://"><i class="con fa fab-contact"></i></a> -->
+              </div>
+            </div>
+            <div class="us">
+              <img src="./img/user.png" alt="user" width="30px" height="30px" />
+            </div>
           </div>
         </nav>
         <div class="desktop">
@@ -97,11 +110,12 @@
               </li>
               <li class="nav-item dropdown">
                 <a
-                  class="nav-link dropdown-toggle"
+                  class="nav-link dropdown-toggle active"
                   data-bs-toggle="dropdown"
                   href="#"
                   role="button"
                   aria-expanded="false"
+                  aria-current="page"
                   >Manage</a
                 >
                 <ul class="dropdown-menu">
@@ -132,7 +146,6 @@
                   </li>
                   <!-- <li><hr class="dropdown-divider" /></li>
                   <li><a class="dropdown-item" href="#">Separated link</a></li> -->
-                  -->
                 </ul>
               </li>
               <li class="nav-item">
@@ -147,12 +160,7 @@
                 <a class="nav-link" href="./promotion.html">Promotion</a>
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  href="./bulk.html"
-                  aria-current="page"
-                  >Message</a
-                >
+                <a class="nav-link" href="./bulk.html">Message</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./timetable.html">Timetable</a>
@@ -193,15 +201,24 @@
               <form action="" class="form-group">
                 <div class="form-group">
                   <label for="recipient" id="recipient">Recipient :</label>
-                  <input type="text" name="recipient" id="recipient" />
+                  <input
+                    type="text"
+                    name="recipient"
+                    id="recipient"
+                    class="col-8"
+                  />
                 </div>
                 <div class="form-group">
                   <label for="title" id="title">Title :</label>
-                  <input type="text" name="title" id="title" />
+                  <input type="text" name="title" id="title" class="col-8" />
                 </div>
                 <div class="form-group">
                   <label for="message" id="message">Message :</label>
-                  <textarea name="message" id="message"></textarea>
+                  <textarea
+                    name="message"
+                    id="message"
+                    class="col-8"
+                  ></textarea>
                 </div>
                 <button type="submit"><span>Send</span></button>
               </form>
@@ -213,15 +230,24 @@
               <form action="" class="form-group">
                 <div class="form-group">
                   <label for="recipient" id="recipient">Recipient :</label>
-                  <input type="text" name="recipient" id="recipient" />
+                  <input
+                    type="text"
+                    name="recipient"
+                    id="recipient"
+                    class="col-8"
+                  />
                 </div>
                 <div class="form-group">
                   <label for="title" id="title">Title :</label>
-                  <input type="text" name="title" id="title" />
+                  <input type="text" name="title" id="title" class="col-8" />
                 </div>
                 <div class="form-group">
                   <label for="message" id="message">Message :</label>
-                  <textarea name="message" id="message"></textarea>
+                  <textarea
+                    name="message"
+                    id="message"
+                    class="col-8"
+                  ></textarea>
                 </div>
                 <button type="submit"><span>Send</span></button>
               </form>

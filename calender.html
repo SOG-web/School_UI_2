@@ -11,32 +11,56 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./css/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/css/all.min.css" />
-    <link rel="stylesheet" href="./css/css/font-awesome.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/manageStaff.css" />
     <link rel="stylesheet" href="./css/manageStudent.css" />
+    <script
+      src="https://kit.fontawesome.com/2345683446.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="body">
       <div class="all">
         <nav>
-          <div class="topnav" id="myTopnav">
-            <a
-              href="javascript:void(0);"
-              class="icon na"
-              onclick="myFunction()"
-            >
-              <i class="fa fa-bars"></i>
-            </a>
-            <a href="#news" class="na">News</a>
-            <a href="#contact" class="na">Contact</a>
-            <a href="#about" class="na">About</a>
-            <!-- <a href="http://"><i class="con fa fab-contact"></i></a> -->
-          </div>
-          <div class="us">
-            <img src="./img/user.png" alt="user" />
+          <div class="over"></div>
+          <div class="fl">
+            <div class="fld">
+              <div class="topnav" id="myTopnav">
+                <a
+                  href="javascript:void(0);"
+                  class="icon na"
+                  onclick="myFunction()"
+                >
+                  <i class="fa fa-bars"></i>
+                </a>
+                <a href="./dashboard.html" class="na">Dashboard</a>
+                <a href="./manageAdmin.html" class="na">Manage Admin</a>
+                <a href="./manageStaff.html" class="na">Manage Staff</a>
+                <a href="./manageStudent.html" class="na">Manage Student</a>
+                <a href="./manageFee.html" class="na">Manage Fee</a>
+                <a href="./manageClass.html" class="na">Manage Classes</a>
+                <a href="./calender.html" class="na">Calender</a>
+                <a href="./promotion.html" class="na">Promotion</a>
+                <a href="./studentPerformance.html" class="na">Performance</a>
+                <a href="./bulk.html" class="na">Message</a>
+                <a href="#" class="na">Extras</a>
+                <!-- <a href="http://"><i class="con fa fab-contact"></i></a> -->
+              </div>
+            </div>
+            <div class="us">
+              <img src="./img/user.png" alt="user" width="30px" height="30px" />
+            </div>
           </div>
         </nav>
         <div class="desktop">
@@ -150,7 +174,7 @@
         </div>
         <main class="body-content">
           <h3>Calender</h3>
-          <div class="box">
+          <div class="box" data-simplebar>
             <table class="table">
               <thead>
                 <tr>
@@ -326,15 +350,25 @@
           <div class="button">
             <button class="small"><span>Print</span></button>
             <button class="small"><span>Round off Term</span></button>
+            <button class="big"><span>Print</span></button>
+            <button class="big"><span>Round off Term</span></button>
           </div>
         </main>
       </div>
     </div>
 
-    <script src="/js/all.js"></script>
+    <script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/jquery.js"></script>
-    <script src="./js/popper.js"></script>
-    <script src="./js/bootstrap.js"></script>
     <script src="./js/main.js"></script>
   </body>
 </html>

@@ -22,7 +22,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: scroll;
+  overflow: auto;
 }
 
 h3 {
@@ -72,6 +72,15 @@ table {
   /* border: 3px solid blue; */
   margin: auto;
   margin-top: 0px;
+  margin-left: 30px;
+}
+
+.dropdown-toggle {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
 }
 
 tr span {
